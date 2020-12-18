@@ -253,7 +253,7 @@ function CCMJPGEncoder( settings ) {
 
 	CCFrameEncoder.call( this, settings );
 
-	this.extension = 'avi';
+	this.extension = '.avi';
 	this.mimeType = 'video/avi';
 	this.baseFilename = this.filename;
 	this.builder = null;
